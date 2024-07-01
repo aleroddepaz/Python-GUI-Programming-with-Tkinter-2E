@@ -371,7 +371,7 @@ class SettingsModel:
 
 class WeatherDataModel:
 
-  base_url = 'http://w1.weather.gov/xml/current_obs/{}.xml'
+  base_url = 'http://forecast.weather.gov/xml/current_obs/{}.xml'
 
   def __init__(self, station):
     self.url = self.base_url.format(station)
